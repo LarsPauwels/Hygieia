@@ -47,6 +47,6 @@ class MailHelper {
             'text' => 'Klik hierboven op de knop om je wachtwoord opnieuw in te stellen.',
             'url' => config('app.url').'?token='.$password
         ];
-        Mail::to('lars.pauwels@telenet.be')->queue(new SendMail($data));
+        Mail::to($client->email)->queue(new SendMail($data));
     }
 }

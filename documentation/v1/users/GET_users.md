@@ -32,8 +32,8 @@ search | integer | N | Search by the name field
         },
         {
             "id": 1,
-            "name": "Jhon Doe",
-            "email": "Jhon@doe.be",
+            "name": "Jhon Doe 2",
+            "email": "Jhon2@doe.be",
             "created_at": "2020-08-04T19:49:51.000000Z",
             "updated_at": "2020-08-04T21:14:07.000000Z",
             "deleted_at": null

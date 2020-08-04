@@ -103,7 +103,7 @@ Request modifiers may be included in the request URI query string. The following
 * `search` Search by the name field
 
 ## Resources
-For a description of the available resources see the [Resource Overview](/documentation/v1/README.md) or the [Online Documentation](http://hygieia.be/api/documentation).
+For a description of the available resources see the [Resource Overview](/documentation/v1/README.md) or the [Online Documentation](https://hygieia.be/api/documentation).
 
 ### Authentication
 - **[<code>POST</code> Login](/documentation/v1/auth/POST_login.md)**
