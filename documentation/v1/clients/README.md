@@ -11,4 +11,4 @@ created_at | timestamp | Y | Shows the date when the account is created
 updated_at | timestamp | Y | Shows the date when the account is updated
 [spaces] | object | Y | Returns a collection of `space` objects
 
-[spaces]: spaces/README.md
+[spaces]: ../spaces/README.md
