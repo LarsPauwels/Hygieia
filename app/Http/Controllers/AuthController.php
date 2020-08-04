@@ -11,6 +11,7 @@ use App\User;
 use App\Client;
 
 use App\Http\Resources\Auth as AuthResource;
+use App\Http\Resources\User as UserResource;
 
 use App\Http\Helpers\MailHelper;
 use App\Http\Helpers\ValidationHelper;
@@ -166,6 +167,9 @@ class AuthController extends Controller {
         if ($user->save()) {
             return $this->login($req);
         }
+
+        $message = 'Something went wrong! Try again later.';
+        return ErrorHelper::exceptions($message, 400);
     }
 
     /**
@@ -218,6 +222,10 @@ class AuthController extends Controller {
 
         if ($user->save()) {
             MailHelper::forgotPassword(Client::where('email', $req->email)->first(), $password);
+            return new UserResource($user);
         }
+
+        $message = 'Something went wrong! Try again later.';
+        return ErrorHelper::exceptions($message, 400);
     }
 }

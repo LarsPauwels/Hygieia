@@ -1,4 +1,4 @@
-# Food App Rest API
+# Hygieia Rest API
 
 ## Overview
 This API is a multi-channel communications platform that allows the sending, receiving and automating of conversations between a Business and a Customer. Zingle is typically interacted with by Businesses via a web browser to manage these conversations with their customers. The Zingle API provides functionality to developers to act on behalf of either the Business or the Customer. The Zingle iOS SDK provides mobile application developers an easy-to-use layer on top of the Zingle API.
@@ -103,7 +103,7 @@ Request modifiers may be included in the request URI query string. The following
 * `search` Search by the name field
 
 ## Resources
-For a description of the available resources see the [Resource Overview](/documentation/v1/overview.md) or the [Online Documentation](http://hygieia.be/api/documentation).
+For a description of the available resources see the [Resource Overview](/documentation/v1/README.md) or the [Online Documentation](http://hygieia.be/api/documentation).
 
 ### Authentication
 - **[<code>POST</code> Login](/documentation/v1/auth/POST_login.md)**
@@ -123,14 +123,14 @@ For a description of the available resources see the [Resource Overview](/docume
 - **[<code>PUT</code> Update Client By Id](/documentation/v1/clients/PUT_clientId.md)**
 - **[<code>DELETE</code> Delete Client By Id](/documentation/v1/clients/DELETE_clientId.md)**
 
-#### Spaces
+### Spaces
 - **[<code>GET</code> All Spaces By Client](/documentation/v1/spaces/GET_spaces.md)**
 - **[<code>GET</code> Space By Id](/documentation/v1/spaces/GET_spaceId.md)**
 - **[<code>POST</code> Create Space](/documentation/v1/spaces/POST_space.md)**
 - **[<code>PUT</code> Update Space By Id](/documentation/v1/spaces/PUT_spaceId.md)**
 - **[<code>DELETE</code> Delete Space By Id](/documentation/v1/spaces/PUT_spaceId.md)**
 
-##### Items
+### Items
 - **[<code>GET</code> All Items By Space](/documentation/v1/items/GET_items.md)**
 - **[<code>GET</code> Item By Id](/documentation/v1/items/GET_itemId.md)**
 - **[<code>POST</code> Create Item](/documentation/v1/items/POST_item.md)**
@@ -140,11 +140,11 @@ For a description of the available resources see the [Resource Overview](/docume
 - **[<code>POST</code> Connect Product and Item](/documentation/v1/items/POST_productItem.md)**
 - **[<code>DELETE</code> Detach Product and Item](/documentation/v1/items/DELETE_productItem.md)**
 
-#### Payments
+### Payments
 - **[<code>PUT</code> Update Client Payed](/documentation/v1/payments/PUT_payed.md)**
 - **[<code>PUT</code> Update Client Expired](/documentation/v1/payments/PUT_expired.md)**
 
-#### PDF
+### PDF
 - **[<code>GET</code> Generate PDF](/documentation/v1/pdf/GET_pdf.md)**
 - **[<code>GET</code> Generate Table](/documentation/v1/pdf/GET_table.md)**
 - **[<code>GET</code> Generate Tables](/documentation/v1/pdf/GET_tables.md)**
