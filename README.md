@@ -106,46 +106,73 @@ Request modifiers may be included in the request URI query string. The following
 For a description of the available resources see the [Resource Overview](/documentation/v1/overview.md) or the [Online Documentation](http://hygieia.be/api/documentation).
 
 ### Authentication
-- **[<code>POST</code> Login](/documentation/v1/accounts/POST_login.md)**
-- **[<code>POST</code> Register](/documentation/v1/accounts/POST_register.md)**
-- **[<code>GET</code> Logout](/documentation/v1/accounts/GET_logout.md)**
-- **[<code>GET</code> All Users](/documentation/v1/accounts/GET_users.md)**
-- **[<code>GET</code> Get User By Id](/documentation/v1/accounts/GET_userId.md)**
-- **[<code>PUT</code> Update User By Id](/documentation/v1/accounts/PUT_userId.md)**
-- **[<code>DELETE</code> Delete User By Id](/documentation/v1/accounts/DELETE_userId.md)**
+- **[<code>POST</code> Login](/documentation/v1/auth/POST_login.md)**
+- **[<code>GET</code> Logout](/documentation/v1/auth/GET_logout.md)**
+- **[<code>PUT</code> Change Password](/documentation/v1/auth/PUT_change.md)**
+- **[<code>PUT</code> Forgot Password](/documentation/v1/auth/PUT_forgot.md)**
 
 ### Users
+- **[<code>GET</code> All Users](/documentation/v1/auth/GET_users.md)**
+- **[<code>GET</code> All Clients By User](/documentation/v1/auth/GET_clients.md)**
+- **[<code>GET</code> All Products By User](/documentation/v1/auth/GET_products.md)**
 
 ### Clients
-- **[<code>GET</code> Login](/documentation/v1/admins/GET_admins.md)**
-- **[<code>GET</code> Register](/documentation/v1/admins/GET_adminId.md)**
-- **[<code>DELETE</code> Logout](/documentation/v1/admins/DELETE_adminId.md)**
+- **[<code>GET</code> All Clients](/documentation/v1/clients/GET_clients.md)**
+- **[<code>GET</code> Client By Id](/documentation/v1/clients/GET_clientId.md)**
+- **[<code>POST</code> Create Client](/documentation/v1/clients/POST_client.md)**
+- **[<code>PUT</code> Update Client By Id](/documentation/v1/clients/PUT_clientId.md)**
+- **[<code>DELETE</code> Delete Client By Id](/documentation/v1/clients/DELETE_clientId.md)**
 
 #### Spaces
-- **[<code>GET</code> Login](/documentation/v1/companies/POST_login.md)**
-- **[<code>GET</code> Register](/documentation/v1/companies/POST_register.md)**
-- **[<code>DELETE</code> Logout](/documentation/v1/companies/GET_logout.md)**
+- **[<code>GET</code> All Spaces By Client](/documentation/v1/spaces/GET_spaces.md)**
+- **[<code>GET</code> Space By Id](/documentation/v1/spaces/GET_spaceId.md)**
+- **[<code>POST</code> Create Space](/documentation/v1/spaces/POST_space.md)**
+- **[<code>PUT</code> Update Space By Id](/documentation/v1/spaces/PUT_spaceId.md)**
+- **[<code>DELETE</code> Delete Space By Id](/documentation/v1/spaces/PUT_spaceId.md)**
+
+##### Items
+- **[<code>GET</code> All Items By Space](/documentation/v1/items/GET_items.md)**
+- **[<code>GET</code> Item By Id](/documentation/v1/items/GET_itemId.md)**
+- **[<code>POST</code> Create Item](/documentation/v1/items/POST_item.md)**
+- **[<code>PUT</code> Update Item By Id](/documentation/v1/items/PUT_itemId.md)**
+- **[<code>DELETE</code> Delete Item By Id](/documentation/v1/items/PUT_itemId.md)**
+- **[<code>GET</code> All Products By Item](/documentation/v1/items/PUT_itemId.md)**
+- **[<code>POST</code> Connect Product and Item](/documentation/v1/items/POST_productItem.md)**
+- **[<code>DELETE</code> Detach Product and Item](/documentation/v1/items/DELETE_productItem.md)**
 
 #### Payments
-- **[<code>GET</code> Login](/documentation/v1/employees/POST_login.md)**
-- **[<code>GET</code> Register](/documentation/v1/employees/POST_register.md)**
-- **[<code>DELETE</code> Logout](/documentation/v1/employees/GET_logout.md)**
+- **[<code>PUT</code> Update Client Payed](/documentation/v1/payments/PUT_payed.md)**
+- **[<code>PUT</code> Update Client Expired](/documentation/v1/payments/PUT_expired.md)**
 
 #### PDF
-- **[<code>GET</code> Login](/documentation/v1/suppliers/POST_login.md)**
-- **[<code>GET</code> Register](/documentation/v1/suppliers/POST_register.md)**
-- **[<code>DELETE</code> Logout](/documentation/v1/suppliers/GET_logout.md)**
+- **[<code>GET</code> Generate PDF](/documentation/v1/pdf/GET_pdf.md)**
+- **[<code>GET</code> Generate Table](/documentation/v1/pdf/GET_table.md)**
+- **[<code>GET</code> Generate Tables](/documentation/v1/pdf/GET_tables.md)**
 
 ### Products
-- **[<code>GET</code> Login](/documentation/v1/orders/POST_login.md)**
-- **[<code>POST</code> Register](/documentation/v1/orders/POST_register.md)**
-- **[<code>PUT</code> Login](/documentation/v1/orders/POST_login.md)**
-- **[<code>GET</code> Register](/documentation/v1/orders/POST_register.md)**
-- **[<code>DELETE</code> Logout](/documentation/v1/orders/GET_logout.md)**
-- **[<code>GET</code> Login](/documentation/v1/orders/POST_login.md)**
+- **[<code>GET</code> All Products](/documentation/v1/products/GET_products.md)**
+- **[<code>GET</code> Product By Id](/documentation/v1/products/GET_productId.md)**
+- **[<code>POST</code> Create Product](/documentation/v1/products/POST_product.md)**
+- **[<code>PUT</code> Update Product By Id](/documentation/v1/products/PUT_productId.md)**
+- **[<code>DELETE</code> Delete Product By Id](/documentation/v1/products/PUT_productId.md)**
 
 ### Frequencies
+- **[<code>GET</code> All Frequencies](/documentation/v1/frequencies/GET_frequencies.md)**
+- **[<code>GET</code> Frequency By Id](/documentation/v1/frequencies/GET_frequencyId.md)**
+- **[<code>POST</code> Create Frequency](/documentation/v1/frequencies/POST_frequency.md)**
+- **[<code>PUT</code> Update Frequency By Id](/documentation/v1/frequencies/PUT_frequencyId.md)**
+- **[<code>DELETE</code> Delete Frequency By Id](/documentation/v1/frequencies/PUT_frequencyId.md)**
 
 ### Icons
+- **[<code>GET</code> All Icons](/documentation/v1/icons/GET_icons.md)**
+- **[<code>GET</code> Icon By Id](/documentation/v1/icons/GET_iconId.md)**
+- **[<code>POST</code> Create Icon](/documentation/v1/icons/POST_icon.md)**
+- **[<code>PUT</code> Update Icon By Id](/documentation/v1/icons/PUT_iconId.md)**
+- **[<code>DELETE</code> Delete Icon By Id](/documentation/v1/icons/PUT_iconId.md)**
 
 ### Producers
+- **[<code>GET</code> All Producers](/documentation/v1/producers/GET_producers.md)**
+- **[<code>GET</code> Producer By Id](/documentation/v1/producers/GET_producerId.md)**
+- **[<code>POST</code> Create Producer](/documentation/v1/producers/POST_producer.md)**
+- **[<code>PUT</code> Update Producer By Id](/documentation/v1/producers/PUT_producerId.md)**
+- **[<code>DELETE</code> Delete Producer By Id](/documentation/v1/producers/PUT_producerId.md)**
