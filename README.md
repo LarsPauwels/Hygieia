@@ -62,16 +62,16 @@ Each response will include a `status` object, (if successful) a `data` result (`
         ...
     },
     "links": {
-        "first": "http://hygieia/api/v1/client/list?page=1",
-        "last": "http://hygieia/api/v1/client/list?page=57",
+        "first": "https://hygieia.be/api/v1/client/list?page=1",
+        "last": "https://hygieia.be/api/v1/client/list?page=57",
         "prev": null,
-        "next": "http://hygieia/api/v1/client/list?page=2"
+        "next": "https://hygieia.be/api/v1/client/list?page=2"
     },
     "meta": {
         "current_page": 1,
         "from": 1,
         "last_page": 57,
-        "path": "http://hygieia/api/v1/client/list",
+        "path": "https://hygieia.be/api/v1/client/list",
         "per_page": 1,
         "to": 1,
         "total": 57
@@ -112,9 +112,9 @@ For a description of the available resources see the [Resource Overview](/docume
 - **[<code>PUT</code> Forgot Password](/documentation/v1/auth/PUT_forgot.md)**
 
 ### Users
-- **[<code>GET</code> All Users](/documentation/v1/auth/GET_users.md)**
-- **[<code>GET</code> All Clients By User](/documentation/v1/auth/GET_clients.md)**
-- **[<code>GET</code> All Products By User](/documentation/v1/auth/GET_products.md)**
+- **[<code>GET</code> All Users](/documentation/v1/users/GET_users.md)**
+- **[<code>GET</code> All Clients By User](/documentation/v1/users/GET_clients.md)**
+- **[<code>GET</code> All Products By User](/documentation/v1/users/GET_products.md)**
 
 ### Clients
 - **[<code>GET</code> All Clients](/documentation/v1/clients/GET_clients.md)**
