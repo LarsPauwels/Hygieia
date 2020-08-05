@@ -1,4 +1,6 @@
-[![version](https://img.shields.io/badge/Version-v1.0-green)]
+![version](https://img.shields.io/badge/Version-v1.0-green)
+![laravel](https://img.shields.io/badge/Laravel-5.8-green)
+![type](https://img.shields.io/badge/Type-REST%20API-blue)
 
 # Hygieia Rest API
 
@@ -103,6 +105,9 @@ Request modifiers may be included in the request URI query string. The following
 
 ## Resources
 For a description of the available resources see the [Resource Overview](/documentation/v1/README.md) or the [Online Documentation](https://hygieia.be/api/documentation).
+
+### Email end-points
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **[<code>PUT</code> Update Client Payed](/documentation/v1/payments/PUT_payed.md)**
 
 ### Authentication
 - **[<code>POST</code> Login](/documentation/v1/auth/POST_login.md)**
