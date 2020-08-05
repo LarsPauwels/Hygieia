@@ -878,6 +878,14 @@
                 "operationId": "icon",
                 "parameters": [
                     {
+                        "name": "type",
+                        "in": "query",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
                         "name": "search",
                         "in": "query",
                         "required": false,

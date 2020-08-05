@@ -24,6 +24,16 @@ logo | string | Y | An image of your logo (upload)
 
     POST https://hygieia.be/api/v1/client/40?_method=put
 
+#### Request Body
+```json 
+{
+    "name": "Company",
+    "address": "4054  Haul Road, Saint Paul, Minnesota",
+    "email": "Company@gmail.com",
+    "logo": "file.png (uploaded file)"
+}  
+```
+
 ### Response
 ``` json
 {

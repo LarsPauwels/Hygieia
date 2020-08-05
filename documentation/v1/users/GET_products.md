@@ -2,7 +2,7 @@
 
     GET user/products
     
-Returns all [Products] of a ceartain user
+Returns all [Products] of a certain [user]
 
 ## Parameters
 ### URI Parameters
@@ -75,4 +75,5 @@ search | integer | N | Search by the name field
 }
 ```
 
-[Products]: products/README.md
+[user]: README.md
+[Products]: ../products/README.md

@@ -11,12 +11,22 @@ Field | Data Type | Required | Description
 name | string | Y | Company name
 address | string | Y | The address of your company
 email | string | Y | 
-logo | string | Y | An image of your logo (upload)
+logo | file | Y | An image of your logo (upload)
 
 ## Example
 ### Request
 
     POST https://hygieia.be/api/v1/client
+
+#### Request Body
+```json 
+{
+    "name": "Company",
+    "address": "4054  Haul Road, Saint Paul, Minnesota",
+    "email": "Company@gmail.com",
+    "logo": "file.png (uploaded file)"
+}  
+```
 
 ### Response
 ``` json

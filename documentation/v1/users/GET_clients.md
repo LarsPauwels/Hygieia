@@ -2,7 +2,7 @@
 
     GET user/clients
     
-Returns all [Clients] of a ceartain user
+Returns all [Clients] of a certain [user]
 
 ## Parameters
 ### URI Parameters
@@ -85,4 +85,5 @@ search | integer | N | Search by the name field
 }
 ```
 
-[Clients]: clients/README.md
+[user]: README.md
+[Clients]: ../clients/README.md

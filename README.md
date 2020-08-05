@@ -126,17 +126,17 @@ For a description of the available resources see the [Resource Overview](/docume
 ### Spaces
 - **[<code>GET</code> All Spaces By Client](/documentation/v1/spaces/GET_spaces.md)**
 - **[<code>GET</code> Space By Id](/documentation/v1/spaces/GET_spaceId.md)**
-- **[<code>POST</code> Create Space](/documentation/v1/spaces/POST_space.md)**
+- **[<code>POST</code> Create Space By Client](/documentation/v1/spaces/POST_space.md)**
 - **[<code>PUT</code> Update Space By Id](/documentation/v1/spaces/PUT_spaceId.md)**
 - **[<code>DELETE</code> Delete Space By Id](/documentation/v1/spaces/PUT_spaceId.md)**
 
 ### Items
 - **[<code>GET</code> All Items By Space](/documentation/v1/items/GET_items.md)**
 - **[<code>GET</code> Item By Id](/documentation/v1/items/GET_itemId.md)**
-- **[<code>POST</code> Create Item](/documentation/v1/items/POST_item.md)**
+- **[<code>POST</code> Create Item By Space](/documentation/v1/items/POST_item.md)**
 - **[<code>PUT</code> Update Item By Id](/documentation/v1/items/PUT_itemId.md)**
 - **[<code>DELETE</code> Delete Item By Id](/documentation/v1/items/PUT_itemId.md)**
-- **[<code>GET</code> All Products By Item](/documentation/v1/items/PUT_itemId.md)**
+- **[<code>GET</code> All Products By Item](/documentation/v1/items/GET_productItem.md)**
 - **[<code>POST</code> Connect Product and Item](/documentation/v1/items/POST_productItem.md)**
 - **[<code>DELETE</code> Detach Product and Item](/documentation/v1/items/DELETE_productItem.md)**
 

@@ -19,6 +19,7 @@ class Product extends JsonResource {
             'id' => $this->id,
             'name' => $this->name,
             'quantity' => $this->quantity,
+            'information' => $this->information,
             'icon' => new IconResource(IconModel::find($this->image_id)),
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at

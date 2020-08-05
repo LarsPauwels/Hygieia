@@ -23,6 +23,14 @@ class IconController extends Controller {
      *     security={{"bearerAuth":{}}},
      *
      *     @OA\Parameter(
+     *         name="type",
+     *         in="query",
+     *         required=false,
+     *         @OA\Schema(
+     *             type="string"
+     *         )
+     *     ),
+     *     @OA\Parameter(
      *         name="search",
      *         in="query",
      *         required=false,
@@ -86,6 +94,7 @@ class IconController extends Controller {
         $size = (int)$req->page_size;
         $sort = strtolower($req->sort);
         $search = strtolower($req->search);
+        $type = strtolower($req->type);
 
         if ($req->page_size === null) {
             $size = 50;
@@ -95,7 +104,11 @@ class IconController extends Controller {
             $sort = 'asc';
         }
 
-        $icons = Icon::where('name', 'LIKE', "%".$search."%")->orderBy('name', $sort)->paginate($size);
+        if ($req->type === null) {
+            $icons = Icon::where('name', 'LIKE', "%".$search."%")->orderBy('name', $sort)->paginate($size);
+        } else {
+            $icons = Icon::where('name', 'LIKE', "%".$search."%")->where('type', $type)->orderBy('name', $sort)->paginate($size);
+        }
 
         if (count($icons)) {
             return new IconCollection($icons);
