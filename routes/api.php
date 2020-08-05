@@ -46,18 +46,20 @@ Route::group(['prefix' => 'v1'], function () {
 		Route::get('client/{id}/tabels/{year}', 'ClientController@generateTables');
 
 		// Icon end-points
+		Route::get('icon/list', 'IconController@getIcons');
+		Route::get('icon/{id}', 'IconController@getIconById');
+
 		Route::middleware('can:isAdmin')->group(function() {
-			Route::get('icon/list', 'IconController@getIcons');
-			Route::get('icon/{id}', 'IconController@getIconById');
 			Route::post('icon', 'IconController@createIcon');
 			Route::put('icon/{id}', 'IconController@updateIconById');
 			Route::delete('icon/{id}', 'IconController@deleteIconById');
 		});
 
 		// Procedure end-points
+		Route::get('procedure/list', 'ProcedureController@getProcedures');
+		Route::get('procedure/{id}', 'ProcedureController@getProcedureById');
+		
 		Route::middleware('can:isAdmin')->group(function() {
-			Route::get('procedure/list', 'ProcedureController@getProcedures');
-			Route::get('procedure/{id}', 'ProcedureController@getProcedureById');
 			Route::post('procedure', 'ProcedureController@createProcedure');
 			Route::put('procedure/{id}', 'ProcedureController@updateProcedureById');
 			Route::delete('procedure/{id}', 'ProcedureController@deleteProcedureById');
