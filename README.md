@@ -1,3 +1,5 @@
+[![version](https://img.shields.io/badge/Version-v1.0-green)]
+
 # Hygieia Rest API
 
 ## Overview
