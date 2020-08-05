@@ -108,75 +108,75 @@ For a description of the available resources see the [Resource Overview](/docume
 
 ### Authentication
 - **[<code>POST</code> Login](/documentation/v1/auth/POST_login.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Logout](/documentation/v1/auth/GET_logout.md)**
+- **[<code>GET</code> Logout](/documentation/v1/auth/GET_logout.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 - **[<code>PUT</code> Change Password](/documentation/v1/auth/PUT_change.md)**
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **[<code>PUT</code> Forgot Password](/documentation/v1/auth/PUT_forgot.md)**
+- **[<code>PUT</code> Forgot Password](/documentation/v1/auth/PUT_forgot.md)** ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 ### Users
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Users](/documentation/v1/users/GET_users.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Clients By User](/documentation/v1/users/GET_clients.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Products By User](/documentation/v1/users/GET_products.md)**
+- **[<code>GET</code> All Users](/documentation/v1/users/GET_users.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> All Clients By User](/documentation/v1/users/GET_clients.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> All Products By User](/documentation/v1/users/GET_products.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ### Clients
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Clients](/documentation/v1/clients/GET_clients.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Client By Id](/documentation/v1/clients/GET_clientId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>POST</code> Create Client](/documentation/v1/clients/POST_client.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>PUT</code> Update Client By Id](/documentation/v1/clients/PUT_clientId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>DELETE</code> Delete Client By Id](/documentation/v1/clients/DELETE_clientId.md)**
+- **[<code>GET</code> All Clients](/documentation/v1/clients/GET_clients.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> Client By Id](/documentation/v1/clients/GET_clientId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>POST</code> Create Client](/documentation/v1/clients/POST_client.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>PUT</code> Update Client By Id](/documentation/v1/clients/PUT_clientId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>DELETE</code> Delete Client By Id](/documentation/v1/clients/DELETE_clientId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ### Spaces
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Spaces By Client](/documentation/v1/spaces/GET_spaces.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Space By Id](/documentation/v1/spaces/GET_spaceId.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>POST</code> Create Space By Client](/documentation/v1/spaces/POST_space.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>PUT</code> Update Space By Id](/documentation/v1/spaces/PUT_spaceId.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>DELETE</code> Delete Space By Id](/documentation/v1/spaces/PUT_spaceId.md)**
+- **[<code>GET</code> All Spaces By Client](/documentation/v1/spaces/GET_spaces.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> Space By Id](/documentation/v1/spaces/GET_spaceId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>POST</code> Create Space By Client](/documentation/v1/spaces/POST_space.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>PUT</code> Update Space By Id](/documentation/v1/spaces/PUT_spaceId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>DELETE</code> Delete Space By Id](/documentation/v1/spaces/PUT_spaceId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ### Items
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Items By Space](/documentation/v1/items/GET_items.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Item By Id](/documentation/v1/items/GET_itemId.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>POST</code> Create Item By Space](/documentation/v1/items/POST_item.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>PUT</code> Update Item By Id](/documentation/v1/items/PUT_itemId.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>DELETE</code> Delete Item By Id](/documentation/v1/items/PUT_itemId.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Products By Item](/documentation/v1/items/GET_productItem.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>POST</code> Connect Product and Item](/documentation/v1/items/POST_productItem.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>DELETE</code> Detach Product and Item](/documentation/v1/items/DELETE_productItem.md)**
+- **[<code>GET</code> All Items By Space](/documentation/v1/items/GET_items.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> Item By Id](/documentation/v1/items/GET_itemId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>POST</code> Create Item By Space](/documentation/v1/items/POST_item.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>PUT</code> Update Item By Id](/documentation/v1/items/PUT_itemId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>DELETE</code> Delete Item By Id](/documentation/v1/items/PUT_itemId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> All Products By Item](/documentation/v1/items/GET_productItem.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>POST</code> Connect Product and Item](/documentation/v1/items/POST_productItem.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>DELETE</code> Detach Product and Item](/documentation/v1/items/DELETE_productItem.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ### Payments
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>PUT</code> Update Client Payed](/documentation/v1/payments/PUT_payed.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>PUT</code> Update Client Expired](/documentation/v1/payments/PUT_expired.md)**
+- **[<code>PUT</code> Update Client Payed](/documentation/v1/payments/PUT_payed.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>PUT</code> Update Client Expired](/documentation/v1/payments/PUT_expired.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ### PDF
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Generate PDF](/documentation/v1/pdf/GET_pdf.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Generate Table](/documentation/v1/pdf/GET_table.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Generate Tables](/documentation/v1/pdf/GET_tables.md)**
+- **[<code>GET</code> Generate PDF](/documentation/v1/pdf/GET_pdf.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> Generate Table](/documentation/v1/pdf/GET_table.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> Generate Tables](/documentation/v1/pdf/GET_tables.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ### Products
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Products](/documentation/v1/products/GET_products.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Product By Id](/documentation/v1/products/GET_productId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>POST</code> Create Product](/documentation/v1/products/POST_product.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>PUT</code> Update Product By Id](/documentation/v1/products/PUT_productId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>DELETE</code> Delete Product By Id](/documentation/v1/products/PUT_productId.md)**
+- **[<code>GET</code> All Products](/documentation/v1/products/GET_products.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> Product By Id](/documentation/v1/products/GET_productId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>POST</code> Create Product](/documentation/v1/products/POST_product.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>PUT</code> Update Product By Id](/documentation/v1/products/PUT_productId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>DELETE</code> Delete Product By Id](/documentation/v1/products/PUT_productId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ### Frequencies
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Frequencies](/documentation/v1/frequencies/GET_frequencies.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Frequency By Id](/documentation/v1/frequencies/GET_frequencyId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>POST</code> Create Frequency](/documentation/v1/frequencies/POST_frequency.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>PUT</code> Update Frequency By Id](/documentation/v1/frequencies/PUT_frequencyId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>DELETE</code> Delete Frequency By Id](/documentation/v1/frequencies/PUT_frequencyId.md)**
+- **[<code>GET</code> All Frequencies](/documentation/v1/frequencies/GET_frequencies.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> Frequency By Id](/documentation/v1/frequencies/GET_frequencyId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>POST</code> Create Frequency](/documentation/v1/frequencies/POST_frequency.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>PUT</code> Update Frequency By Id](/documentation/v1/frequencies/PUT_frequencyId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>DELETE</code> Delete Frequency By Id](/documentation/v1/frequencies/PUT_frequencyId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ### Icons
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Icons](/documentation/v1/icons/GET_icons.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Icon By Id](/documentation/v1/icons/GET_iconId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>POST</code> Create Icon](/documentation/v1/icons/POST_icon.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>PUT</code> Update Icon By Id](/documentation/v1/icons/PUT_iconId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>DELETE</code> Delete Icon By Id](/documentation/v1/icons/PUT_iconId.md)**
+- **[<code>GET</code> All Icons](/documentation/v1/icons/GET_icons.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> Icon By Id](/documentation/v1/icons/GET_iconId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>POST</code> Create Icon](/documentation/v1/icons/POST_icon.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>PUT</code> Update Icon By Id](/documentation/v1/icons/PUT_iconId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>DELETE</code> Delete Icon By Id](/documentation/v1/icons/PUT_iconId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ### Producers
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> All Producers](/documentation/v1/producers/GET_producers.md)**
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>GET</code> Producer By Id](/documentation/v1/producers/GET_producerId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>POST</code> Create Producer](/documentation/v1/producers/POST_producer.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>PUT</code> Update Producer By Id](/documentation/v1/producers/PUT_producerId.md)**
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **[<code>DELETE</code> Delete Producer By Id](/documentation/v1/producers/PUT_producerId.md)**
+- **[<code>GET</code> All Producers](/documentation/v1/producers/GET_producers.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>GET</code> Producer By Id](/documentation/v1/producers/GET_producerId.md)** ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>POST</code> Create Producer](/documentation/v1/producers/POST_producer.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>PUT</code> Update Producer By Id](/documentation/v1/producers/PUT_producerId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
+- **[<code>DELETE</code> Delete Producer By Id](/documentation/v1/producers/PUT_producerId.md)** ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 
 ## Legend
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) These end-points will send a `email` to the client
